@@ -1,0 +1,80 @@
+<div class="container">
+	<br>
+	<div class="row" ng-repeat="cat in db.group.categories">
+		<div class="row">
+			<h2 class="display-4">{{cat.name}}</h2>
+		</div>
+		<div class="row">
+			<div class="col-6 col-md-6 col-lg-4" ng-repeat="mbr in cat.members">
+				<div class="card mb-3 rounded-lg shadow" style="background: rgba(255, 255, 255, .5); border: 0;">
+					<div class="row no-gutters" style="padding: 10px 0px 10px 10px">
+						<div class="col-md-4">
+							<img src="{{db.group.members[mbr].pic ? db.group.members[mbr].pic : 'img/profile.png'}}" class="card-img rounded-lg" alt="profile">
+							<p class="card-text" style="line-height: 0.9em;margin-top: 5px">
+								<small class="text-muted">
+									{{db.group.members[mbr].degree}}
+								</small>
+							</p>
+						</div>
+						<div class="col-md-8">
+							<div class="card-body" style="padding:0px 5px 0px 10px">
+								<h3 class="card-title">{{db.group.members[mbr].name}}</h3>	
+								<p style="
+									margin-bottom: 4px;
+									width: 100%;									
+									overflow: hidden;
+									display: -webkit-box;
+    								-webkit-line-clamp: 2;
+    								-webkit-box-orient: vertical;
+    								">
+									{{db.group.members[mbr].desc}}
+								</p>
+								<button 
+									style="padding: 0px 3px"
+									class="btn btn-secondary btn-sm rounded-lg float-right" 
+									type="button" 
+									data-toggle="modal" 
+									data-target="#bioModal" 
+									ng-click="viewMember(db.group.members[mbr])">Leer más...</button>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer" style="background: rgba(255, 255, 255, .7); padding: 0px 10px">
+						<a ng-if="db.group.members[mbr].contact.email" href="mailto:{{db.group.members[mbr].contact.email}}" class="btn btn-light btn-sm social-btn" title="E-mail"><img src="img/social/email.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.facebook" href="{{db.group.members[mbr].contact.facebook}}" class="btn btn-light btn-sm social-btn" title="Facebook"><img src="img/social/facebook_square.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.twitter" href="{{db.group.members[mbr].contact.twitter}}" class="btn btn-light btn-sm social-btn" title="Twitter"><img src="img/social/twitter.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.instagram" href="{{db.group.members[mbr].contact.instagram}}" class="btn btn-light btn-sm social-btn" title="Instagram"><img src="img/social/instagram.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.linkedin" href="{{db.group.members[mbr].contact.linkedin}}" class="btn btn-light btn-sm social-btn" title="LinkedIn"><img src="img/social/linkedin.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.github" href="{{db.group.members[mbr].contact.github}}" class="btn btn-light btn-sm social-btn" title="Github"><img src="img/social/github.png" width="25" height="25" /></a>
+						<a ng-if="db.group.members[mbr].contact.website" href="{{db.group.members[mbr].contact.website}}" class="btn btn-light btn-sm social-btn" title="Website"><img src="img/social/website.png" width="25" height="25" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+	<div class="modal fade" id="bioModal" tabindex="-1" role="dialog" aria-labelledby="bioModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="row">
+						<div class="col-4">
+							<img src="{{selectedMember.pic}}" class="rounded-circle" alt="profile" width="75" height="75">
+						</div>
+						<div class="col-8 align-middle">
+							<h5 class="modal-title">{{selectedMember.name}}</h5>
+							<p><small class="text-muted">{{selectedMember.degree}}</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<p ng-bind-html="selectedMember.desc"></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>                
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+body{
+    background: url('../img/body_bkground.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50rem;
+    padding-top: 4.5rem;
+}
+
+a{
+    color: #888;
+}
+
+.social-btn{
+    background: rgba(255, 255, 255, 0);
+    border:none;
+}
+
+.material-icons{
+    vertical-align: middle;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 1.3em;
+}

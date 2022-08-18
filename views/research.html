@@ -1,0 +1,33 @@
+<div class="container">
+	<br>
+	<h2>{{researchSection.title}}</h2>
+
+	<table class="table table-hover" ng-init="reverseOrder=true; orderTag='year'">
+		<thead>
+			<tr>
+				<th ng-click="orderTag='year'; reverseOrder = !reverseOrder;" ng-show="researchSection.headers.year" scope="col">
+					Year <i ng-if="orderTag==='year'" class="material-icons">{{ !reverseOrder ? 'arrow_drop_down' : 'arrow_drop_up' }}</i>
+				</th>
+				<th ng-click="orderTag='title'; reverseOrder = !reverseOrder;" ng-show="researchSection.headers.title" scope="col">
+					Title <i ng-if="orderTag==='title'" class="material-icons">{{ !reverseOrder ? 'arrow_drop_down' : 'arrow_drop_up' }}</i>
+				</th>
+				<th ng-click="orderTag='desc'; reverseOrder = !reverseOrder;" ng-show="researchSection.headers.desc" scope="col">
+					Desc. <i ng-if="orderTag==='desc'" class="material-icons">{{ !reverseOrder ? 'arrow_drop_down' : 'arrow_drop_up' }}</i>
+				</th>
+				<th ng-click="orderTag='authors'; reverseOrder = !reverseOrder;" ng-show="researchSection.headers.authors" scope="col">
+					Authors <i ng-if="orderTag==='authors'" class="material-icons">{{ !reverseOrder ? 'arrow_drop_down' : 'arrow_drop_up' }}</i>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="item in researchSection.items | orderBy: orderTag : reverseOrder | filter : item_filter track by $index">
+				<th ng-show="researchSection.headers.year" scope="row" style="min-width: 100px;">{{item.year}}</th>
+				<td ng-show="researchSection.headers.title" scope="row">{{item.title}}</td>
+				<td ng-show="researchSection.headers.desc"  scope="row" style="max-width: 300px;">{{item.desc}}</td>
+				<td ng-show="researchSection.headers.authors" scope="row">{{item.authors}}</td>
+			</tr>			
+		</tbody>
+	</table>
+
+	<br><br>
+</div>

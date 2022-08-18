@@ -1,0 +1,273 @@
+{
+    "home": {
+        "carousel": [
+            {
+                "src": "img/slideshow/slideshow0.jpg",
+                "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
+            },
+            {
+                "src": "img/slideshow/slideshow1.jpg",
+                "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
+            },
+            {
+                "src": "img/slideshow/slideshow2.jpg",
+                "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
+            }
+        ],
+        "history": ".",
+        "mission": "."
+    },
+    "group": {
+        "categories": [
+            {
+                "name": "Miembros del grupo",
+                "members": ["cdemarziani", "mcolombo", "smurano", "droldos", "ralcoleas", "acolombo", "jaskenazi", "prosales", "dberns","mmicheletto"]
+            },
+            {
+                "name": "Miembros relacionados",
+                "members": []
+            }
+        ],
+        "members": {
+            "cdemarziani": {
+                "name": "Carlos De Marziani",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "cdemarzi@gmail.com"
+                }
+            },
+            "mcolombo":{
+                "name": "Martín Colombo",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "martin.colombo@hotmail.com"
+                }
+            },
+            "smurano":{
+                "name": "Santiago Murano",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "murano.santiago@gmail.com"
+                }
+            },
+            "droldos":{
+                "name": "Dario Roldos",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "roldos.dario@gmail.com"
+                }
+            },
+            "ralcoleas":{
+                "name": "Rómulo Alcoleas",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "romuloalcoleas@yahoo.com"
+                }
+            },
+            "acolombo":{
+                "name": "Alejandro Colombo",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "acolombo1958@gmail.com"
+                }
+            },
+            "jaskenazi":{
+                "name": "Javier Askenazi",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "javier.askenazi@gmail.com"
+                }
+            },
+            "prosales":{
+                "name": "Pablo Rosales",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "pablo27207@gmail.com"
+                }
+            },
+            "dberns":{
+                "name": "Daniel Berns",
+                "degree": "",
+                "pic": "",
+                "desc": ".....",
+                "contact": {
+                    "email": "daniel.w.berns@gmail.com"
+                }
+            },
+            "mmicheletto": {
+                "name": "Matías Micheletto",
+                "degree": "Electronic Engineer",
+                "pic": "img/profiles/Matias.jpg",
+                "desc": "Matías Micheletto se graduó en Ingeniería Electrónica en la Universidad Nacional del Sur en 2016 y como Doctor en Ingeniería en 2020. Actualmente es becario posdoctoral CONICET en CIT-GSJ y su tema de investigación involucra los sistemas computacionales aplicados a producción agrícola. Su trabajo es dirigido por Carlos Chesñevar de ICIC y Juan Galantini de CERZOS.",
+                "contact": {
+                    "email": "matias.micheletto@uns.edu.ar",
+                    "github": "http://www.github.com/matiasmicheletto",
+                    "linkedin": "https://ar.linkedin.com/in/matiasmicheletto"
+                }
+            }
+        }
+    },
+    "research": {
+        "sections": [{
+                "title": "Publications",
+                "id": "publications",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["publ01"]
+            },
+            {
+                "title": "Projects",
+                "id": "projects",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": false,
+                    "authors": false
+                },
+                "content": ["pro01"]
+            },
+            {
+                "title": "Transfers",
+                "id": "transfers",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["transf01"]
+            },
+            {
+                "title": "Internal Reports",
+                "id": "internal",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": false,
+                    "authors": true
+                },
+                "content": ["ir01"]
+            },
+            {
+                "id": "divider"
+            },
+            {
+                "title": "Master Thesis",
+                "id": "master",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["mt01"]
+            },
+            {
+                "title": "Doctoral Thesis",
+                "id": "doctoral",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["dt01"]
+            }
+        ],
+        "items": {
+            "publ01": {
+                "title": "Titulo",
+                "authors": "Autores",
+                "year": "2022",
+                "desc": "revista",
+                "authors_ref": ["cdemarziani"],
+                "section": "publications",
+                "links": ["https://google.com"]
+            },
+            "ir01": {
+                "title": "Flying Real-Time Network for Disaster Assistance",
+                "authors": " Rodrigo Santos, Javier Orozco, Vinicius Petrucci, Daniel Mosse",
+                "year": "2016",
+                "desc": "",
+                "authors_ref": [],
+                "section": "internal",
+                "links": []
+            },
+            "mt01": {
+                "title": "Ingeniería de Sistemas de Tiempo Real: Monitoreo",
+                "authors": "Omar Alimenti",
+                "year": "1999",
+                "desc": "Supervised by Jorge Santos.",
+                "authors_ref": [],
+                "section": "master",
+                "links": []
+            },
+            "dt01": {
+                "title": "Factibilidad de Sistemas de Tiempo Real",
+                "authors": "Javier Orozco",
+                "year": "1998",
+                "desc": "Supervised by Jorge Santos",
+                "authors_ref": [],
+                "section": "doctoral",
+                "links": []
+            },
+            "pro01": {
+                "title": "Descripción, especificación e implementación de un controlador de domótica",
+                "authors": "",
+                "year": "",
+                "desc": "",
+                "authors_ref": [],
+                "section": "projects",
+                "links": []
+            },
+            "transf01": {
+                "title": "Desarrollo de un registrador de locomotora. FERRO EXPRESO PAMPEANO",
+                "authors": "LEONARDO ORDINEZ; RODRIGO SANTOS; GABRIEL M. EGGLY.",
+                "year": "2014",
+                "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. 2014-10-01 - 2016-10-01.",
+                "authors_ref": [],
+                "section": "transfers",
+                "links": []
+            }
+        }
+    },
+    "recent": {
+        "sections": {
+            "sec1": ["escaner"]
+        },
+        "projects": {
+            "escaner": {
+                "title": "Escaner",
+                "images": [
+                    "img/projects/Escaner.JPG",
+                    "img/projects/Escaner2.JPG",
+                    "img/projects/Escaner3.png"
+                ],
+                "details": "Diseño e Implementación de un Escáner Lidar para Análisis Tridimensional de Cobertura Vegetal de Suelos. La erosión hídrica y eólica del suelo sobre el que se realizan actividades de producción agrícola implica la pérdida de nutrientes y microorganismos importantes. La presencia de rastrojos o cultivos de cobertura reduce en gran medida la erosión eólica al frenar el viento sobre la superficie, reduce la erosión hídrica al impedir el escurrimiento de agua, evita la pérdida de humedad por evaporación al estar el suelo protegido de la radiación solar, y también se evita fenómenos como el ``planchado'' o ``sellado'' del suelo que impide la emergencia de los cultivos sembrados luego de lluvias intensas. La cobertura vegetal debe contar con ciertas características para optimizar la calidad del suelo, y entre éstas se puede mencionar su altura y densidad volumétrica por lo que contar con un instrumento para la medición de éstas variables resulta de interés. Se presenta en este trabajo un prototipo que permite escanear la superficie del suelo midiendo la altura de la cobertura vegetal mediante un sensor de distancia accionado mediante un mecanismo CNC. Se detalla el funcionamiento tanto del sistema mecánico como electrónico y del software implementado como así también los resultados de las pruebas experimentales.",
+                "update": 1536980400000,
+                "authors": ["mmicheletto", "rsantos"],
+                "links": []
+            }
+        }
+    }
+}

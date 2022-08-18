@@ -1,0 +1,29 @@
+<div class="container">
+  <br>
+  <h2>Grupo de Investigación en Procesamiento de la Información y Sensores</h2>
+  <br>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4500">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="{{$index}}" class="{{$index == 0 ? 'active':''}}" ng-repeat="im in db.home.carousel track by $index"></li>      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item {{$index == 0 ? 'active':''}}" ng-repeat="im in db.home.carousel track by $index">
+        <img class="d-block w-100" src="{{im.src}}" alt="Slide {{$index}}">
+        <div class="carousel-caption d-none d-md-block">
+          <p ng-if="im.caption">{{im.caption}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <h5>Historia</h5>
+    <p ng-bind-html="db.home.history"></p>
+  </div>
+  <div class="row">
+    <h5>Misión</h5>
+    <p ng-bind-html="db.home.mission"></p>
+  </div>
+  <br><br>
+
+</div>

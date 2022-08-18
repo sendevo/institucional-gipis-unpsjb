@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- ##################### META ##################### -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="description" content="RTSRG" />
+  <meta name="keywords" content="Research, Academic, Institutional, Investigación, Académica, UNPSJB" />
+  <link rel="icon" href="img/icon.png">
+
+  <!-- ##################### CSS ##################### -->
+  <!--<link type="text/css" rel="stylesheet" href="style/icons.css" />-->
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link type="text/css" rel="stylesheet" href="style/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="style/custom.css" />
+  <link type="text/css" rel="stylesheet" href="style/leaflet.css" />
+
+  <!-- ##################### JS ##################### -->
+  <script type="text/javascript" src="assets/angular.min.js"></script>
+  <script type="text/javascript" src="assets/angular-route.min.js"></script>
+  <script type="text/javascript" src="assets/angular-sanitize.min.js"></script>
+  <script type="text/javascript" src="assets/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/popper.min.js"></script>
+  <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/leaflet.js"></script>
+  <script type="text/javascript" src="assets/moment.min.js"></script>
+</head>
+
+<body ng-app="rtsrg">
+
+  <!-- Title -->
+  <title>Grupo de Investigación en Procesamiento de la Información y Sensores</title>
+
+  <!-- ##################### NAVBAR ##################### -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-image: url('img/navbar_bkground.png');">
+    <a class="navbar-brand" href="http://www.diec.uns.edu.ar"><img width="50" height="50"  src="img/logo_unpsjb.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {{currentLocation == 'home' ? 'active' : ''}}"><a class="nav-link" href="#/home" ng-click="currentLocation='home'">Inicio</a></li>
+        <li class="nav-item {{currentLocation == 'group' ? 'active' : ''}}"><a class="nav-link" href="#/group" ng-click="currentLocation='group'">Grupo</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle {{currentLocation == 'research' ? 'active' : ''}}" href="javascript:void(0);" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Investigación</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="{{item.title ? '':'dropdown-divider'}}" ng-repeat="item in db.research.sections">
+              <a ng-if="item.title" class="dropdown-item" href="#/research" ng-click="setResearchSection(item);">{{item.title}}</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item {{currentLocation == 'work' ? 'active' : ''}}" ng-click="currentLocation='work'"><a class="nav-link" href="#/our_work">Proyectos</a></li>
+        <li class="nav-item {{currentLocation == 'contact' ? 'active' : ''}}" ng-click="renderMap();"><a class="nav-link" href="#/contact">Contacto</a></li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" ng-show="currentLocation == 'research'">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" ng-model="item_filter">        
+      </form>
+    </div>
+  </nav>
+
+  <!-- ##################### VIEWS ##################### -->
+  <ng-view></ng-view>
+  
+  <!-- ##################### FOOTER ##################### -->
+  <footer class="d-none d-lg-block" style="position:fixed; bottom: 0; left: 0; right: 0;background-image: url('img/navbar_bkground.png');">
+    <div class="container">
+        <div class="float-right" style="color:#aaa">
+          &copy; Facultad de Ingeniería - <a href="http://www.ing.unp.edu.ar/" style="color:#fff;">Universidad Nacional de la Patagonia San Juan Bosco</a>
+        </div>
+        <!--<div class="float-right" style="color:#aaa">
+          Diseño: &nbsp;&nbsp;<a href="http://beacons.ai/matias.miche" style="color:#fff;">Matías Micheletto</a>
+        </div>-->
+    </div>
+  </footer>
+
+  <!-- ##################### CONTROLLERS ##################### -->
+  <script type="text/javascript" src="controllers/index.js"></script>  
+
+</body>
+
+</html>
