@@ -102,13 +102,11 @@
             },
             "mmicheletto": {
                 "name": "Matías Micheletto",
-                "degree": "Electronic Engineer",
-                "pic": "img/profiles/Matias.jpg",
-                "desc": "Matías Micheletto se graduó en Ingeniería Electrónica en la Universidad Nacional del Sur en 2016 y como Doctor en Ingeniería en 2020. Actualmente es becario posdoctoral CONICET en CIT-GSJ y su tema de investigación involucra los sistemas computacionales aplicados a producción agrícola. Su trabajo es dirigido por Carlos Chesñevar de ICIC y Juan Galantini de CERZOS.",
+                "degree": "",
+                "pic": "",
+                "desc": "Matías Micheletto se graduó...",
                 "contact": {
-                    "email": "matias.micheletto@uns.edu.ar",
-                    "github": "http://www.github.com/matiasmicheletto",
-                    "linkedin": "https://ar.linkedin.com/in/matiasmicheletto"
+                    "email": "matias.micheletto@uns.edu.ar"
                 }
             }
         },
@@ -126,8 +124,8 @@
     "research": {
         "items": {
             "publ01": {
-                "title": "Titulo",
-                "authors": "Autores",
+                "title": "Titulo del trabajo (completar)",
+                "authors": "Autores del trabajo (completar)",
                 "year": "2022",
                 "desc": "revista",
                 "authors_ref": ["cdemarziani"],
