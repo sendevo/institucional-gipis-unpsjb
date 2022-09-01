@@ -18,16 +18,6 @@
         "mission": "."
     },
     "group": {
-        "categories": [
-            {
-                "name": "Miembros del grupo",
-                "members": ["cdemarziani", "mcolombo", "smurano", "droldos", "ralcoleas", "acolombo", "jaskenazi", "prosales", "dberns","mmicheletto"]
-            },
-            {
-                "name": "Miembros relacionados",
-                "members": []
-            }
-        ],
         "members": {
             "cdemarziani": {
                 "name": "Carlos De Marziani",
@@ -121,79 +111,19 @@
                     "linkedin": "https://ar.linkedin.com/in/matiasmicheletto"
                 }
             }
-        }
+        },
+        "categories": [
+		    {
+		        "name": "Miembros del grupo",
+		        "members": ["cdemarziani", "mcolombo", "smurano", "droldos", "ralcoleas", "acolombo", "jaskenazi", "prosales", "dberns","mmicheletto"]
+		    },
+		    {
+		        "name": "Miembros relacionados",
+		        "members": []
+		    }
+		]
     },
     "research": {
-        "sections": [{
-                "title": "Publications",
-                "id": "publications",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": true,
-                    "authors": true
-                },
-                "content": ["publ01"]
-            },
-            {
-                "title": "Projects",
-                "id": "projects",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": false,
-                    "authors": false
-                },
-                "content": ["pro01"]
-            },
-            {
-                "title": "Transfers",
-                "id": "transfers",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": true,
-                    "authors": true
-                },
-                "content": ["transf01"]
-            },
-            {
-                "title": "Internal Reports",
-                "id": "internal",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": false,
-                    "authors": true
-                },
-                "content": ["ir01"]
-            },
-            {
-                "id": "divider"
-            },
-            {
-                "title": "Master Thesis",
-                "id": "master",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": true,
-                    "authors": true
-                },
-                "content": ["mt01"]
-            },
-            {
-                "title": "Doctoral Thesis",
-                "id": "doctoral",
-                "headers": {
-                    "year": true,
-                    "title": true,
-                    "desc": true,
-                    "authors": true
-                },
-                "content": ["dt01"]
-            }
-        ],
         "items": {
             "publ01": {
                 "title": "Titulo",
@@ -249,12 +179,80 @@
                 "section": "transfers",
                 "links": []
             }
-        }
+        },
+        "sections": [
+        	{
+                "title": "Publicaciones",
+                "id": "publications",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["publ01"]
+            },
+            {
+                "title": "Proyectos",
+                "id": "projects",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": false,
+                    "authors": false
+                },
+                "content": ["pro01"]
+            },
+            {
+                "title": "Transferencias",
+                "id": "transfers",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["transf01"]
+            },
+            {
+                "title": "Reportes internos",
+                "id": "internal",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": false,
+                    "authors": true
+                },
+                "content": ["ir01"]
+            },
+            {
+                "id": "divider"
+            },
+            {
+                "title": "Tesis de maestría",
+                "id": "master",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["mt01"]
+            },
+            {
+                "title": "Tesis doctorales",
+                "id": "doctoral",
+                "headers": {
+                    "year": true,
+                    "title": true,
+                    "desc": true,
+                    "authors": true
+                },
+                "content": ["dt01"]
+            }
+        ]
     },
     "recent": {
-        "sections": {
-            "sec1": ["escaner"]
-        },
         "projects": {
             "escaner": {
                 "title": "Escaner",
@@ -268,6 +266,9 @@
                 "authors": ["mmicheletto", "rsantos"],
                 "links": []
             }
+        },
+        "sections": {
+            "sec1": ["escaner"]
         }
     }
 }
