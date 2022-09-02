@@ -16,13 +16,9 @@
     </div>
   </div>
   <br>
-  <div class="row">
-    <h5>Historia</h5>
-    <p ng-bind-html="db.home.history"></p>
-  </div>
-  <div class="row">
-    <h5>Misión</h5>
-    <p ng-bind-html="db.home.mission"></p>
+  <div class="row" ng-repeat="sec in db.home.sections track by $index">
+    <h5>{{sec.title}}</h5>
+    <p ng-bind-html="sec.content"></p>
   </div>
   <br><br>
 

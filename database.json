@@ -14,8 +14,12 @@
                 "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
             }
         ],
-        "history": ".",
-        "mission": "."
+        "sections": [
+            {
+                "title": "Misión",
+                "content": "<p>Este grupo busca fortalecer la vinculación entre el sistema científico-tecnológico y la estructura productiva en el ámbito de la informática y las telecomunicaciones para afrontar los nuevos desafíos que se proponen con la transformación digital, buscando generar con ello un impacto positivo en las actividades de la Cuenca del Golfo San Jorge.</p><p>Sus lineas de investigación se centran en el procesamiento digital de señales que utilizan los sistemas sensoriales desplegados en espacios inteligentes, redes eléctricas y entornos subacuáticos para percibir el estado del entorno y las entidades con las cuales se interactúa en estos.</p><p>En el caso de redes eléctricas las investigaciones se enfocan en el procesamiento de señales para sistemas de comunicaciones por línea eléctrica (PLC), particularmente  las técnicas de sincronización de tramas y estimación de canal en esquemas de modulacion de multiplexación por división de frecuencia ortogonal (OFDM). Esta linea incluye además el diseño de símbolos piloto que permitan reducir la complejidad computacional en comparación con los esquemas actuales de sincronización y estimación.</p> <p>En el caso de los espacios inteligentes y entornos acústicos subacuáticos poco profundos, las investigaciones se centran en el  procesamiento de señales acústicas codificadas. se centran los esfuerzos en el diseño de esquemas de codificación que aporten robustez frente al ruido, que permitan que múltiples usuarios coexistan en un mismo entorno e incrementar la precisión en la determinación de los instantes de llegada de las señales. Este tipo de sistemas son utilizados en redes de sensores subacuáticos para el monitoreo costero, y también por vehículos autónomos subacuáticos (AUVs).</p> <p>Otras de las lineas de investigación esta orientada al desarrollo de soluciones utilizando herramientas TICs (hardware y software) para el monitoreo oceanográfico y el análisis de los datos que se obtienen a través de diferentes sistemas sensoriales, campañas oceanográficas y relevamientos costeros.</p><p>Además, las actividades del grupo incluyen la evaluación e implementación en dispositivos programables, como las FPGA, de nuevos banco de filtros de transceptores de modulación multiportadora de última generación para sistemas PLC, así como los mencionados algoritmos para el esquema OFDM con señales acústicas. </p>"
+            }
+        ]        
     },
     "group": {
         "members": {
@@ -114,10 +118,6 @@
 		    {
 		        "name": "Miembros del grupo",
 		        "members": ["cdemarziani", "mcolombo", "smurano", "droldos", "ralcoleas", "acolombo", "jaskenazi", "prosales", "dberns","mmicheletto"]
-		    },
-		    {
-		        "name": "Miembros relacionados",
-		        "members": []
 		    }
 		]
     },

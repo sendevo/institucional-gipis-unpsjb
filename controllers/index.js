@@ -1,5 +1,5 @@
 // Inicializacion de la app
-var app = angular.module("rtsrg", ['ngSanitize', 'ngRoute']);
+var app = angular.module("gipis", ['ngSanitize', 'ngRoute']);
 
 app.run(function ($rootScope,$location) {
   moment.lang('es', {

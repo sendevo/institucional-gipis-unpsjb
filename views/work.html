@@ -1,6 +1,6 @@
 <div class="container">
     <br>
-    <h2>Recent projects</h2>
+    <h2>Nuestro trabajo</h2>
 
     <div ng-repeat="sec in db.recent.sections">
         <div class="card-deck">
@@ -15,7 +15,7 @@
                             {{relativeTime(db.recent.projects[project].update)}}</small></p>
                 </div>
                 <div class="card-footer">                    
-                        <img title="{{db.group.members[mbr].name}}" ng-repeat="mbr in db.recent.projects[project].authors" src="{{db.group.members[mbr].pic}}" class="rounded-circle" alt="Image" width="40">    
+                        <img title="{{db.group.members[mbr].name}}" ng-repeat="mbr in db.recent.projects[project].authors" src="{{db.group.members[mbr].pic ? db.group.members[mbr].pic : 'img/profile.png'}}" class="rounded-circle" alt="Image" width="40">    
                 </div>
             </div>
         </div>
@@ -38,9 +38,9 @@
                         <img ng-repeat="im in selectedWork.images" src="{{im}}" class="rounded-lg" alt="Image" width="200">
                     </div>
                     <div class="col-12 col-sm-8">
-                        <h5>Authors</h5>
+                        <h5>Autores</h5>
                         <p>{{memberList(selectedWork.authors)}}</p>
-                        <h5>Project details</h5>
+                        <h5>Detalles del proyecto</h5>
                         <p ng-bind-html="selectedWork.details"></p>
                         <div ng-show="selectedWork.links.length>0">
                             <h5>Links</h5>
@@ -50,11 +50,11 @@
                         </div>
                     </div>
                 </div>
-                <p class="float-right"><small class="text-muted">Last updated
+                <p class="float-right"><small class="text-muted">Última actualización
                         {{relativeTime(selectedWork.update)}}</small></p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             </div>
         </div>
     </div>
