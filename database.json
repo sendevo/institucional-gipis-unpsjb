@@ -25,9 +25,9 @@
         "members": {
             "cdemarziani": {
                 "name": "Carlos De Marziani",
-                "degree": "Doctor",
+                "degree": " en Ingeniería",
                 "position": "Profesor Titular UNPSJB, Inv. Adjunto CONICET",
-                "pic": "",
+                "pic": "img/profiles/Carlos.jpg",
                 "desc": "El Dr. Carlos De Marziani obtuvo, en el año 2001, el título de Ingeniero Electrónico en la Universidad Nacional de la Patagonia San Juan Bosco (Argentina). En el año 2007, obtuvo el título de Doctor en el Departamento de Electrónica de la Universidad de Alcalá (España). Actualmente se desempeña como Profesor Titular en el área de Sistemas Digitales en el Departamento de Electrónica de la Universidad Nacional de la Patagonia San Juan Bosco. Además es Investigador Adjunto en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Sus áreas de investigación son redes de sensores, integración multisensorial, sistemas electrónicos para robots y procesamiento digital de señales. Participa en diferentes proyectos de investigación científica con financiamiento público de entidades nacionales. Actualmente dirige dos tesis doctorales. Ha publicado numerosos artículos en congresos científicos a nivel nacional e internacional; como así también artículos en revistas indexadas con alto índice de impacto.",
                 "contact": {
                     "email": "marziani@unpata.edu.ar"
@@ -45,7 +45,7 @@
             },
             "smurano":{
                 "name": "Santiago Murano",
-                "degree": "Magíster",
+                "degree": "Doctor",
                 "position": "",
                 "pic": "",
                 "desc": "Santiago obtuvo el título de Ingeniero Electrónico en la Universidad Nacional de la Patagonia San Juan Bosco en 2012, el título de Máster en Sistemas Electrónica Avanzados. Sistemas Inteligentes en la Universidad de Alcalá (España), y el homónimo ",
@@ -77,7 +77,7 @@
                 "name": "Alejandro Colombo",
                 "degree": "",
                 "position": "",
-                "pic": "",
+                "pic": "img/profiles/Alejandro.jpg",
                 "desc": ".....",
                 "contact": {
                     "email": "acolombo1958@gmail.com"
@@ -97,7 +97,7 @@
                 "name": "José Gallardo",
                 "degree": "",
                 "position": "Prof. titular regular",
-                "pic": "",
+                "pic": "img/profiles/Jose.jpg",
                 "desc": "José I. Gallardo nació en Paraná, Argentina en 1957. Ingeniero Electrónico de la Univ. Nac. Rosario (1981), Posgrado de Ingeniería en Telecomunicaciones- Escuela Superior Técnica Gral. Savio (Actual IESE), Bs Aires (1983) y de Ingeniería en Comunicaciones Digitales de J.I.C.A.-Japón en Inictel, Lima-Perú (1986). Cursó además Maestría Redes Datos en Univ. Nac. de La Plata. Desempeñó funciones técnicas en proyectos de obras en ENTel / Telefónica Arg. en diferentes zonas del país (1981-1996). Jefe del Centro O&M/Patagonia de Telefónica Arg., responsable aceptaciones, puesta en marcha y mantenimiento de las primeras centrales digitales en la región (1990-1996). Profesor Titular por Concurso en dos asignaturas e Investigador Cat.3 en Deptos. Informática y Electrónica-Fac.Ingeniería-UNPSJB desde 1985. Evaluador de CONEAU en Área Informática desde 2010. Ha dirigido varios proyectos de investigación en las áreas de informática y comunicaciones acústicas subacuáticas desde 1987 a la fecha, con publicaciones en congresos nacionales e internacionales. Asesor en proyectos de teleinformática, redes de VC en la región. Ha sido participante y disertante en numerosas conferencias, en temas como Teleinformática, Comunicaciones por Fibra Óptica, Redes de Computadoras y TCP/IP. Sus principales campos de interés son comunicaciones digitales, redes de computadoras /sensores y tecnología informática aplicada en educación.",
                 "contact": {
                     "email": "jgallardo@ing.unp.edu.ar"
@@ -125,12 +125,13 @@
             },
             "mmicheletto": {
                 "name": "Matías Micheletto",
-                "degree": "",
+                "degree": "Doctor en Ingeniería",
                 "position": "",
-                "pic": "",
-                "desc": "Matías Micheletto se graduó...",
+                "pic": "img/profiles/Matias.jpg",
+                "desc": "Matías Micheletto obtuvo el título de Ingeniero Electrónico y Doctor en Ingeniería en la Universidad Nacional del Sur en 2016 y en 2020 respectivamente. Se desempeñó como Ayudante y más tarde como Asistente de Cátedra en las asignaturas Diseño de Circuitos Lógicos y Técnicas Digitales en el Departamento de Ingeniería Eléctrica y Computadoras entre los años 2016 a 2021. Actualmente se encuentra realizando una Beca Interna Posdoctoral CONICET en el Centro de Investigaciones y Transferencias Golfo San Jorge.",
                 "contact": {
-                    "email": "matias.micheletto@uns.edu.ar"
+                    "email": "matias.micheletto@uns.edu.ar",
+                    "linkedin": "https://www.linkedin.com/in/matiasmicheletto"
                 }
             }
         },
@@ -153,46 +154,46 @@
                 "links": ["https://google.com"]
             },
             "ir01": {
-                "title": "Flying Real-Time Network for Disaster Assistance",
-                "authors": " Rodrigo Santos, Javier Orozco, Vinicius Petrucci, Daniel Mosse",
-                "year": "2016",
+                "title": "Titulo del trabajo (completar)",
+                "authors": "Autores del trabajo (completar)",
+                "year": "2022",
                 "desc": "",
                 "authors_ref": [],
                 "section": "internal",
                 "links": []
             },
             "mt01": {
-                "title": "Ingeniería de Sistemas de Tiempo Real: Monitoreo",
-                "authors": "Omar Alimenti",
-                "year": "1999",
-                "desc": "Supervised by Jorge Santos.",
+                "title": "Titulo de maestria (completar)",
+                "authors": "Autores de la maestria (completar)",
+                "year": "2022",
+                "desc": "Supervised by.....",
                 "authors_ref": [],
                 "section": "master",
                 "links": []
             },
             "dt01": {
-                "title": "Factibilidad de Sistemas de Tiempo Real",
-                "authors": "Javier Orozco",
-                "year": "1998",
-                "desc": "Supervised by Jorge Santos",
+                "title": "Titulo de tesis (completar)",
+                "authors": "Autor de la tesis",
+                "year": "2022",
+                "desc": "Supervised by......",
                 "authors_ref": [],
                 "section": "doctoral",
                 "links": []
             },
             "pro01": {
-                "title": "Descripción, especificación e implementación de un controlador de domótica",
-                "authors": "",
-                "year": "",
+                "title": "Titulo de proyecto (completar)",
+                "authors": "Autores del proyecto",
+                "year": "2022",
                 "desc": "",
                 "authors_ref": [],
                 "section": "projects",
                 "links": []
             },
             "transf01": {
-                "title": "Desarrollo de un registrador de locomotora. FERRO EXPRESO PAMPEANO",
-                "authors": "LEONARDO ORDINEZ; RODRIGO SANTOS; GABRIEL M. EGGLY.",
-                "year": "2014",
-                "desc": "Asesoramientos, consultorías y asistencias técnicas. Certificar bienes, servicios y/o procesos. 2014-10-01 - 2016-10-01.",
+                "title": "Titulo de proyecto (completar)",
+                "authors": "Autores del proyecto (completar)",
+                "year": "2022",
+                "desc": "",
                 "authors_ref": [],
                 "section": "transfers",
                 "links": []
@@ -272,21 +273,9 @@
     },
     "recent": {
         "projects": {
-            "escaner": {
-                "title": "Escaner",
-                "images": [
-                    "img/projects/Escaner.JPG",
-                    "img/projects/Escaner2.JPG",
-                    "img/projects/Escaner3.png"
-                ],
-                "details": "Diseño e Implementación de un Escáner Lidar para Análisis Tridimensional de Cobertura Vegetal de Suelos. La erosión hídrica y eólica del suelo sobre el que se realizan actividades de producción agrícola implica la pérdida de nutrientes y microorganismos importantes. La presencia de rastrojos o cultivos de cobertura reduce en gran medida la erosión eólica al frenar el viento sobre la superficie, reduce la erosión hídrica al impedir el escurrimiento de agua, evita la pérdida de humedad por evaporación al estar el suelo protegido de la radiación solar, y también se evita fenómenos como el ``planchado'' o ``sellado'' del suelo que impide la emergencia de los cultivos sembrados luego de lluvias intensas. La cobertura vegetal debe contar con ciertas características para optimizar la calidad del suelo, y entre éstas se puede mencionar su altura y densidad volumétrica por lo que contar con un instrumento para la medición de éstas variables resulta de interés. Se presenta en este trabajo un prototipo que permite escanear la superficie del suelo midiendo la altura de la cobertura vegetal mediante un sensor de distancia accionado mediante un mecanismo CNC. Se detalla el funcionamiento tanto del sistema mecánico como electrónico y del software implementado como así también los resultados de las pruebas experimentales.",
-                "update": 1536980400000,
-                "authors": ["mmicheletto", "rsantos"],
-                "links": []
-            }
         },
         "sections": {
-            "sec1": ["escaner"]
+            "sec1": []
         }
     }
 }
