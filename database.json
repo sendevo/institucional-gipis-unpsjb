@@ -12,6 +12,10 @@
             {
                 "src": "img/slideshow/slideshow2.jpg",
                 "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
+            },
+            {
+                "src": "img/slideshow/slideshow3.jpg",
+                "caption": "Universidad Nacional de la Patagonia San Juan Bosco"
             }
         ],
         "sections": [
@@ -25,7 +29,7 @@
         "members": {
             "cdemarziani": {
                 "name": "Carlos De Marziani",
-                "degree": " en Ingeniería",
+                "degree": "Doctor",
                 "position": "Profesor Titular UNPSJB, Inv. Adjunto CONICET",
                 "pic": "img/profiles/Carlos.jpg",
                 "desc": "El Dr. Carlos De Marziani obtuvo, en el año 2001, el título de Ingeniero Electrónico en la Universidad Nacional de la Patagonia San Juan Bosco (Argentina). En el año 2007, obtuvo el título de Doctor en el Departamento de Electrónica de la Universidad de Alcalá (España). Actualmente se desempeña como Profesor Titular en el área de Sistemas Digitales en el Departamento de Electrónica de la Universidad Nacional de la Patagonia San Juan Bosco. Además es Investigador Adjunto en el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). Sus áreas de investigación son redes de sensores, integración multisensorial, sistemas electrónicos para robots y procesamiento digital de señales. Participa en diferentes proyectos de investigación científica con financiamiento público de entidades nacionales. Actualmente dirige dos tesis doctorales. Ha publicado numerosos artículos en congresos científicos a nivel nacional e internacional; como así también artículos en revistas indexadas con alto índice de impacto.",
@@ -35,18 +39,18 @@
             },
             "mcolombo":{
                 "name": "Martín Colombo",
-                "degree": "",
-                "position": "",
-                "pic": "",
-                "desc": ".....",
+                "degree": "Doctor",
+                "position": "Profesor Adjunto",
+                "pic": "img/profiles/Martin.jpg",
+                "desc": "El Dr. Martín Colombo obtuvo el título de Ingeniero Electrónico en la Universidad Nacional de la Patagonia San Juan Bosco (Argentina) en el año 2014. En el año 2021 obtuvo el título de Doctor en Ingeniería por la Universidad Nacional de La Plata (Argentina) y Doctor en Electrónica: Sistemas Electrónicos Avanzados, Sistemas Inteligentes por la Universidad de Alcalá de Henares (España) en cotutela. Actualmente se desempeña como Profesor Adjunto en el área de Sistemas de Comunicaciones en el Departamento de Electrónica de la Universidad Nacional de la Patagonia San Juan Bosco. Sus áreas de investigación actuales son sistemas de comunicaciones digitales, comunicaciones por la red eléctrica, y procesamiento digital de señales para sistemas de comunicaciones.",
                 "contact": {
-                    "email": "martin.colombo@hotmail.com"
+                    "email": "mcolombo@ing.unp.edu.ar"
                 }
             },
             "smurano":{
                 "name": "Santiago Murano",
                 "degree": "Doctor",
-                "position": "",
+                "position": "Jefe de Trabajos Prácticos",
                 "pic": "",
                 "desc": "Santiago obtuvo el título de Ingeniero Electrónico en la Universidad Nacional de la Patagonia San Juan Bosco en 2012, el título de Máster en Sistemas Electrónica Avanzados. Sistemas Inteligentes en la Universidad de Alcalá (España), y el homónimo ",
                 "contact": {

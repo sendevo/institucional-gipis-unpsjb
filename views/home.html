@@ -17,8 +17,10 @@
   </div>
   <br>
   <div class="row" ng-repeat="sec in db.home.sections track by $index">
-    <h5>{{sec.title}}</h5>
-    <p ng-bind-html="sec.content"></p>
+    <div class="container">
+      <h5>{{sec.title}}</h5>
+      <p ng-bind-html="sec.content"></p>
+    </div>
   </div>
   <br><br>
 

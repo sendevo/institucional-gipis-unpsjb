@@ -69,6 +69,18 @@ app.run(function ($rootScope,$location) {
     setTimeout(function(){
       var map = L.map('map').setView([-45.8253301,-67.4634281], 18);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: ''}).addTo(map);
+      /*
+      delete L.Icon.Default.prototype._getIconUrl;
+      jQuery.get("img/marker-icon.png", markerIcon => {
+        jQuery.get("img/marker-shadow.png", markerShadow => {
+          L.Icon.Default.mergeOptions({
+                  iconRetinaUrl: markerIcon,
+                  iconUrl: markerIcon,
+                  shadowUrl: markerShadow
+          });
+        })
+      });
+      */
       L.marker([-45.8253301,-67.4634281]).addTo(map).bindPopup('GIPIS').openPopup();
     },500);
   };

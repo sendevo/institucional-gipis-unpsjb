@@ -1,13 +1,13 @@
 <div class="container">
 	<br>
 	<div class="row" ng-repeat="cat in db.group.categories">
-		<div class="row">
+		<div class="row container">
 			<h2>{{cat.name}}</h2>
 		</div>
-		<div class="row">
-			<div class="col-6 col-md-6 col-lg-4" ng-repeat="mbr in cat.members">
+		<div class="row container">
+			<div class="col-xs-12 col-md-6 col-lg-4" ng-repeat="mbr in cat.members">
 				<div class="card mb-3 rounded-lg shadow" style="background: rgba(255, 255, 255, .5); border: 0;">
-					<div class="row no-gutters" style="padding: 10px 0px 10px 10px">
+					<div class="row no-gutters" style="padding: 7px">
 						<div class="col-md-4">
 							<img src="{{db.group.members[mbr].pic ? db.group.members[mbr].pic : 'img/profile.png'}}" class="card-img rounded-lg" alt="profile">
 							<p class="card-text" style="line-height: 0.9em;margin-top: 5px">
@@ -17,7 +17,7 @@
 							</p>
 						</div>
 						<div class="col-md-8">
-							<div class="card-body" style="padding:0px 5px 0px 10px">
+							<div class="card-body" style="padding:0px 5px 0px 10px; height: 150px;">
 								<h3 class="card-title">{{db.group.members[mbr].name}}</h3>	
 								<p style="
 									margin-bottom: 4px;
